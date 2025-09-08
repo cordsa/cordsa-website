@@ -1,7 +1,8 @@
 import './App.css'
 import './Theme.css';
 import { Header } from './components/Header';
-import { Landing } from './pages/Landing';
+import { Events } from './pages/events/Events';
+import { Landing } from './pages/landing/Landing';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header/>
       <Landing/>
+      <Events/>
     </>
   )
 }
