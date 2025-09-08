@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80px;
+  background-color: var(--primary-color);
+  padding: 0 20px;
+}
+
+.cordsa-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.cordsa-logo > img {
+  width: auto;
+  height: 75px;
+}
+
+.cordsa-logo h1 {
+  color: var(--accent-color);
+  font-family: 'Nova Round', Arial, Helvetica, sans-serif;
+}
+
+.meaning-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent-color);
+  font-family: 'Nova Round', Arial, Helvetica, sans-serif;
+}
+
+.meaning-text > p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: var(--secondary-color-2);
+  font-weight: 550;
+  gap: 20px;
+}
