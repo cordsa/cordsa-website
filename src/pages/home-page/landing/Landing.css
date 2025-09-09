@@ -34,6 +34,10 @@
   margin-bottom: 0px;
 }
 
+.landing-button {
+  height: auto;
+}
+
 .landing-info button {
   background-color: var(--secondary-color-2);
 }
@@ -44,6 +48,7 @@
 
 .line,
 .landing-info > h1,
-.landing-info > p {
+.landing-info > p,
+.landing-button {
   width: 80%;
 }
