@@ -4,9 +4,7 @@ export function Landing() {
   return (
     <>
       <section id="landing">
-        <div className="landing-image">
-          
-        </div>
+        <div className="landing-image"></div>
         <div className="landing-info">
           <h1>
             <b>CORDSA</b> is a student-led affiliate of the Canadian Organization for Rare Disorders (CORD) at the University of Alberta.

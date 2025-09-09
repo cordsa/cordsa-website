@@ -1,0 +1,60 @@
+#outreach {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  place-items: center;
+  width: 100vw;
+  height: 550px;
+  background-color: var(--primary-color-2);
+}
+
+.outreach-join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  width: 500px;
+  height: 390px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+
+.outreach-join > h1 {
+  font-weight: 350;
+  font-size: 2.4rem;
+}
+
+.outreach-join > p {
+  font-size: 1.1rem;
+  width: 410px;
+  text-align: left;
+}
+
+.outreach-join > div > button {
+  background-color: #8B5D88;
+}
+
+.outreach-join > div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 55px;
+}
+
+.testimonial {
+  display: flex;
+
+  background-image: url(../../../assets/bg/testimonial.png);
+  background-size: 100% 100%;
+  width: 540px;
+  height: 411px;
+  color: var(--text-color);
+}
+
+.testimonial-text {
+  width: 300px;
+}
+
+.testimonial-person {
+  display: flex;
+  gap: 20px;
+}
