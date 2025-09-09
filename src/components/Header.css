@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  height: 80px;
+  height: 95px;
   background-color: var(--primary-color);
   margin: 0;
   position: fixed;
@@ -49,5 +49,5 @@ header {
   color: var(--secondary-color-2);
   font-weight: 600;
   gap: 45px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
