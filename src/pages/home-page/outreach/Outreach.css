@@ -1,7 +1,8 @@
 #outreach {
-  display: grid;
-  grid-template: 1fr / 1fr 1fr;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
   width: 100vw;
   height: 550px;
   background-color: var(--primary-color-2);
@@ -21,7 +22,7 @@
 
 .outreach-join > h1 {
   font-weight: 350;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
 }
 
 .outreach-join > p {
@@ -42,7 +43,7 @@
 
 .testimonial {
   display: flex;
-
+  flex-direction: column;
   background-image: url(../../../assets/bg/testimonial.png);
   background-size: 100% 100%;
   width: 540px;
@@ -51,10 +52,62 @@
 }
 
 .testimonial-text {
-  width: 300px;
+  width: 360px;
+  font-size: 1.15rem;
+  text-align: left;
+  margin-left: 2px;
 }
 
 .testimonial-person {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  margin-left: 125px;
+}
+
+.testimonial-person > img {
+  width: 80px;
+  height: 80px;
+  border: 7px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.testimonial-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.testimonial-name {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 0.9rem;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  padding-right: 100px;
+  margin-bottom: -40px;
+}
+
+.quote-icon,
+.quote-icon-reverse {
+  width: 54px;
+}
+
+.quote-icon {
+  margin-bottom: 170px;
+  margin-right: 10px;
+}
+
+.quote-icon-reverse {
+  transform: scaleX(-1);
+  margin-top: 130px;
+  margin-right: 5px;
 }

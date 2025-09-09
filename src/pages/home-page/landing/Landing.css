@@ -8,7 +8,9 @@
 
 .landing-image {
   background-image: url(../../../assets/img/photos/landing.png);
-  background-size: fill;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .landing-info {

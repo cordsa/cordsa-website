@@ -1,5 +1,6 @@
 import './Outreach.css';
 import quote from '../../../assets/img/icons/quote.png';
+import ashley from '../../../assets/img/team/Ashley.png';
 
 export function Outreach() {
   return (
@@ -15,14 +16,14 @@ export function Outreach() {
         </div>
 
         <div className="testimonial">
-          <div>
-            <img src={quote} alt="quote image" />
+          <div className="quote">
+            <img className="quote-icon" src={quote} alt="quote image" />
             <p className="testimonial-text">Joining cordsa has...  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
-            <img src={quote} alt="quote image" />
+            <img className="quote-icon-reverse" src={quote} alt="quote image" />
           </div>
 
           <div className="testimonial-person">
-            <img src="" alt="profile pic" />
+            <img src={ashley} alt="profile pic" />
             <div className="testimonial-info">
               <p className="testimonial-name">Ashley Abrahart</p>
               <p className="title">CORDSA Director</p>
