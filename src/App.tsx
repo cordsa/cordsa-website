@@ -6,6 +6,7 @@ import { Landing } from './pages/home-page/landing/Landing';
 import { Donate } from './pages/home-page/donate/Donate';
 import { Outreach } from './pages/home-page/outreach/Outreach';
 import { Newsletter } from './pages/home-page/newsletter/Newsletter';
+import { Footer } from './components/Footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Donate/>
       <Outreach/>
       <Newsletter/>
+      <Footer/>
     </>
   )
 }
