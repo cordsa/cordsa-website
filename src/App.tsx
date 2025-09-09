@@ -5,6 +5,7 @@ import { Events } from './pages/home-page/events/Events';
 import { Landing } from './pages/home-page/landing/Landing';
 import { Donate } from './pages/home-page/donate/Donate';
 import { Outreach } from './pages/home-page/outreach/Outreach';
+import { Newsletter } from './pages/home-page/newsletter/Newsletter';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Events/>
       <Donate/>
       <Outreach/>
+      <Newsletter/>
     </>
   )
 }
