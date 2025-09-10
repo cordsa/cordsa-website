@@ -18,7 +18,7 @@ export function Outreach() {
         <div className="testimonial">
           <div className="quote">
             <img className="quote-icon" src={quote} alt="quote image" />
-            <p className="testimonial-text">Joining cordsa has...  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
+            <p className="testimonial-text">Being part of CORDSA has deepened my understanding of the rare disease community and given me the privilege of connecting with inspiring and resilient individuals and professionals. Collaborating on these projects with such dedicated peers makes this work even more meaningful!</p>
             <img className="quote-icon-reverse" src={quote} alt="quote image" />
           </div>
 
