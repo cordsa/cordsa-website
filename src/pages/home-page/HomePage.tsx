@@ -1,9 +1,8 @@
-import { Events } from './pages/home-page/events/Events';
-import { Landing } from './pages/home-page/landing/Landing';
-import { Donate } from './pages/home-page/donate/Donate';
-import { Outreach } from './pages/home-page/outreach/Outreach';
-import { Newsletter } from './pages/home-page/newsletter/Newsletter';
-import { Footer } from './components/Footer';
+import { Events } from './events/Events';
+import { Landing } from './landing/Landing';
+import { Donate } from './/donate/Donate';
+import { Outreach } from './outreach/Outreach';
+import { Newsletter } from './newsletter/Newsletter';
 
 export function HomePage() {
   return (
@@ -13,7 +12,6 @@ export function HomePage() {
       <Donate/>
       <Outreach/>
       <Newsletter/>
-      <Footer/>
     </>
   )
 }

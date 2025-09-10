@@ -26,7 +26,7 @@ export function Events() {
               <img src={triviaNight} alt="trivia night" />
             </div>
             <div className="event-name"><p>Rare Disorders Trivia Night</p></div>
-            <p>Join us for our first <b>Rare Disorders Trivia Night</b> on <b>Thurs. Sept. 25</b>, from <b>5:00pm-6:30</b> PM in (room tbd). We are collaborating with the UAlberta Quizbowl Club, so come and enjoy snacks, drinks, and some fun competition!</p>
+            <p>Join us for our first <b>Rare Disorders Trivia Night</b> on <b>Thurs. Sept. 25</b>, from <b>6:00pm-7:30 PM</b> PM in <b>ECHA 1-498</b>. We are collaborating with the UAlberta Quizbowl Club, so come and enjoy snacks, drinks, and some fun competition!</p>
           </div>
 
           <div className="event-box">

@@ -1,5 +1,6 @@
 import cordsaLogo from '../assets/img/icons/logo.png';
 import './Header.css';
+import { NavLink } from 'react-router-dom';
 
 export function Header() {
   return (
@@ -15,10 +16,10 @@ export function Header() {
         </div>
 
         <ul className="header-links">
-          <li>About</li>
-          <li>Get Involved</li>
-          <li>Resources</li>
-          <li>Contact Us</li>
+          <li><NavLink className="link" to="/about">About</NavLink></li>
+          <li><NavLink className="link" to="/get-involved">Get Involved</NavLink></li>
+          <li><NavLink className="link" to ="/resources">Resources</NavLink></li>
+          <li><NavLink className="link" to="/contact-us">Contact Us</NavLink></li>
         </ul>
       </header>
     </>

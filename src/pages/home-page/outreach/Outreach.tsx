@@ -11,7 +11,7 @@ export function Outreach() {
           <p>Join CORDSA to be part of our mission! As a member, you’ll receive our email newsletter with event updates, rare disease insights, and opportunities to volunteer at our events, while earning service hours.</p>
           <div>
             <button>Rubric Portal</button>
-            <button>Become a general member</button>
+            <button>Become a General Member</button>
           </div>
         </div>
 
