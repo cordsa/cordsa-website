@@ -7,6 +7,7 @@ footer {
   background-color: var(--footer-color);
   box-sizing: border-box;
   padding: 0 50px;
+  color: var(--primary-color);
 }
 
 .footer-info {

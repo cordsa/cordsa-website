@@ -6,12 +6,12 @@ import team4 from "../../../assets/img/team/slideshow/team-4.jpeg";
 import team5 from "../../../assets/img/team/slideshow/team-5.jpg";
 import team6 from "../../../assets/img/team/slideshow/team-6.png";
 import team7 from "../../../assets/img/team/slideshow/team-7.png";
-import team8 from "../../../assets/img/team/slideshow/team-8.jpg";
+import team8 from "../../../assets/img/team/slideshow/team-8.png";
 import { useEffect, useState } from 'react';
 
 export function Mission() {
   // images for the slideshow 
-  const teams = [team1, team2, team3, team4, team5, team6, team7, team8];
+  const teams = [team8, team7, team6, team5, team4, team3, team2, team1];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {

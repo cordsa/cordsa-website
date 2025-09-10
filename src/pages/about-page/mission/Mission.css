@@ -1,0 +1,35 @@
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 680px;
+  background-color: var(--secondary-color-2);
+  gap: 50px;
+  padding-top: 80px;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 50px;
+  color: var(--primary-color);
+}
+
+.mission-text > h1 {
+  font-size: 3rem;
+}
+
+.mission-text > p {
+  font-size: 1.4rem;
+  text-align: left;
+  width: 550px;
+}
+
+.slide-show > img {
+  width: 560px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
