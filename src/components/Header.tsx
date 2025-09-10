@@ -6,14 +6,14 @@ export function Header() {
   return (
     <>
       <header id="header">
-        <div className="cordsa-logo">
+        <NavLink to="/" className="cordsa-logo">
           <img src={cordsaLogo} alt="cordsa logo" />
           <h1>CORDSA</h1>
           <div className="meaning-text">
             <p>Canadian Organization for Rare</p>
             <p>Disorders Student Association</p>
           </div>
-        </div>
+        </NavLink>
 
         <ul className="header-links">
           <li><NavLink className="link" to="/about">About</NavLink></li>
