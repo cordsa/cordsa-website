@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 17px;
+  gap: 100px;
+  box-sizing: border-box;
   width: 100vw;
-  min-height: 500px;
+  height: 630px;
   position: relative;
   background-color: var(--primary-color);
   padding: 50px;
