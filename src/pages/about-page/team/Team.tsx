@@ -18,8 +18,10 @@ export function Team() {
           {teamMembers.map((member: TeamMember) => (
             <div className="member-box">
               <img src={member.image} alt={member.name} />
-              <h1>{member.name}</h1>
-              <p>{member.role}</p>
+              <div>
+                <h1>{member.name}</h1>
+                <p>{member.role}</p>
+              </div>
             </div>
           ))}
         </div>

@@ -1,0 +1,77 @@
+#team {
+  width: 100vw;
+  min-height: 800px;
+  background-color: var(--primary-color-2);
+  box-sizing: border-box;
+  padding: 90px 50px;
+}
+
+.team-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.team-line {
+  width: 30%;
+  height: 2px;
+  background-color: var(--secondary-color-2);
+}
+
+.team-header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-header-text > h1 {
+  font-size: 3rem;
+  color: var(--secondary-color-2);
+}
+
+.team-header-text > h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: var(--secondary-color-1);
+}
+
+.team-grid {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 2rem;
+  row-gap: 3rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.team-grid > *:last-child:nth-child(3n + 1) {
+  grid-column: 2;
+}
+
+.member-box {
+  width: 290px;
+  height: 380px;
+  border: 1px solid var(--secondary-color-2);
+  border-radius: 10px;
+  background-color: var(--secondary-color-1);
+  color: var(--primary-color);
+}
+
+.member-box > img {
+  width: 100%;
+  height: auto;
+}
+
+.member-box > div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+  gap: 14px;
+}
+
+.member-box > div > h1 {
+  font-size: 1.75rem;
+  font-weight: normal;
+}

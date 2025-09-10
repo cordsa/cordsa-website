@@ -26,7 +26,7 @@ export const teamMembers: TeamMember[] = [
   {
     image: Ella,
     name: "Ella Jurasz",
-    role: "treasurer",
+    role: "Treasurer",
   },
   {
     image: Marshali,
