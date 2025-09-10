@@ -15,10 +15,10 @@ export function Header() {
         </div>
 
         <ul className="header-links">
-          <li>about</li>
-          <li>get involved</li>
-          <li>resources</li>
-          <li>contact us</li>
+          <li>About</li>
+          <li>Get Involved</li>
+          <li>Resources</li>
+          <li>Contact Us</li>
         </ul>
       </header>
     </>

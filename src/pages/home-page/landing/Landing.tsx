@@ -14,7 +14,7 @@ export function Landing() {
             <b>Our mission</b> is to raise awareness for rare disorders, support research and education, and engage with community both on and off campus through advocacy and outreach. 
           </p>
           <div className="landing-button">
-            <button>learn more</button>
+            <button>Learn More</button>
           </div>
         </div>
       </section>
