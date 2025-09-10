@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <>
       <footer>
-        <div>
+        <div className="footer-info">
           <div className="location">
             <p><b>Our Location:</b> 0-81 Student Life Central, Student Unions Building</p>
             <p><b>Address:</b> 8900 - 114 Street NW Edmonton</p>
@@ -15,17 +15,17 @@ export function Footer() {
           <div className="follow">
             <b>Follow Us :</b>
             <div>
-              <img src={instagram} alt="instagram icon" />
-              <img src={tiktok} alt="tiktok icon" />
-              <img src={facebook} alt="facebook icon" />
+              <a href="https://www.instagram.com/cordsa_ualberta"><img src={instagram} alt="instagram icon" /></a>
+              <a href="https://www.facebook.com/cordualberta"><img src={tiktok} alt="tiktok icon" /></a>
+              <a href="https://www.tiktok.com/@cordsa_ualberta"><img src={facebook} alt="facebook icon" /></a>
             </div>
           </div>
         </div>
 
-        <div className="line"></div>
-        <div>
+        <div className="footer-line"></div>
+        <div className="copyright">
           <p>© Copyright 2025 CORDSA</p>
-          <p>Website design inspired by CORD</p>
+          <a href="https://www.raredisorders.ca" target="_blank" rel="noreferrer noopener">Website design inspired by CORD</a>
         </div>
       </footer>
     </>
