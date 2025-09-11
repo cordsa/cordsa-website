@@ -73,10 +73,14 @@ form textarea {
   align-items: center;
 }
 
-.submit-container > button {
+.submit-button {
   padding: 8px 25px 10px 25px; 
   font-size: 1.1rem;
   background-color: var(--secondary-color-1);
+}
+
+.submit-button::before {
+  background-color: var(--secondary-color-1-dark);
 }
 
 .email-text {

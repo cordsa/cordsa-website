@@ -9,7 +9,7 @@ export function Events() {
       <section id="events">
         <div className="events-info">
           <h1>Upcoming <b>Events</b></h1>
-          <button>View Archive</button>
+          <a href="/about#past-event"><button className="archive-button">View Archive</button></a>
         </div>
 
         <div className="event-boxes">

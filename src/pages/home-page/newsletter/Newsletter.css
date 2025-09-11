@@ -34,3 +34,7 @@
   color: var(--primary-color);
   font-size: 1.rem;
 }
+
+.news-email button::before {
+  background: var(--secondary-color-1-dark);
+}

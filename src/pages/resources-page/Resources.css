@@ -66,6 +66,19 @@
   margin-top: 10px;
 }
 
+.resources-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.article-info a:hover {
+  color: var(--secondary-color-1-dark);
+}
+
+.article-info a:hover .resources-arrow {
+  transform: translateX(8px);
+}
+
 .article-info {
   box-sizing: border-box;
   padding: 18px 20px;

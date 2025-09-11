@@ -1,8 +1,21 @@
 import './PastEvent.css';
 import checkpoint from "./../../../assets/img/icons/event-point.svg";
 import { pastEvents, type Events } from '../../../data/events-info';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export function PastEvent() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      if (el) {
+        el.scrollIntoView();
+      }
+    }
+  }, [location])
+
   return (
     <>
       <section id="past-event">

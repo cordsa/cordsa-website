@@ -45,8 +45,8 @@
   background-color: var(--secondary-color-2);
 }
 
-.landing-info button:hover {
-  background-color: var(--secondary-color-2-dark);
+.landing-info button::before{
+  background: var(--secondary-color-2-dark);
 }
 
 .line,

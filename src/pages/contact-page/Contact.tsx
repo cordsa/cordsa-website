@@ -18,7 +18,7 @@ export function Contact() {
               name="comments" placeholder="Comments">
             </textarea>
             <div className="submit-container">
-              <button type="submit">send</button>
+              <button className="submit-button" type="submit">send</button>
               <div className="email-text">
                 our email: <a href="mailto:cordsa@ualberta.ca">cordsa@ualberta.ca</a>
               </div>

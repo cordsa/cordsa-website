@@ -14,7 +14,7 @@ export function Resources() {
               <div className="article-info">
                 <h1>{article.name}</h1>
                 <p>{article.date}</p>
-                <a href={article.link} target="_blank" rel="noreferrer noopener">Read more →</a>
+                <a href={article.link} target="_blank" rel="noreferrer noopener">Read more <span className="resources-arrow">→</span></a>
               </div>
             </div>
           ))}

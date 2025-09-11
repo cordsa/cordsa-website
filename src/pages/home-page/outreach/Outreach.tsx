@@ -10,8 +10,8 @@ export function Outreach() {
           <h1>Are you a UofA <b>Student?</b></h1>
           <p>Join CORDSA to be part of our mission! As a member, you’ll receive our email newsletter with event updates, rare disease insights, and opportunities to volunteer at our events, while earning service hours.</p>
           <div>
-            <button>Rubric Portal</button>
-            <button>Become a General Member</button>
+            <a href="https://campus.hellorubric.com/?s=12208" target="_blank" rel="noopener noreffer"><button>Rubric Portal</button></a>
+            <a href="https://forms.gle/WAJ2dAhQmTwPNkp59" target="_blank" rel="noopener noreffer"><button>Become a General Member</button></a>
           </div>
         </div>
 

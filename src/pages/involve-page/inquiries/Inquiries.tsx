@@ -10,7 +10,7 @@ export function Inquiries() {
             Your support matters to us. For any donation inquiries or to learn more about ways you can contribute to CORDSA, please contact us. We’d be glad to connect.
           </p>
           <h2>Email:</h2>
-          <p>cordsa@ualberta.ca</p>
+          <p className="email-text">cordsa@ualberta.ca</p>
         </div>
 
         <div className="join-box">
@@ -18,7 +18,7 @@ export function Inquiries() {
           <p>
             Join CORDSA to be part of our mission! As a member, you’ll receive our email newsletter with event updates, rare disease insights, and opportunities to volunteer at our events, while earning service hours.
           </p>
-          <button>Become a Member</button>
+          <a href="https://forms.gle/WAJ2dAhQmTwPNkp59" target="_blank" rel="noopener noreferrer"><button className="member-button">Become a Member</button></a>
         </div>
       </section>
     </>

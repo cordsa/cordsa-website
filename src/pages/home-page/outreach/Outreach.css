@@ -32,8 +32,12 @@
   text-align: left;
 }
 
-.outreach-join > div > button {
-  background-color: #8B5D88;
+.outreach-join > div > a >button {
+  background-color: var(--secondary-color-1);
+}
+
+.outreach-join > div > a > button::before {
+  background-color: var(--secondary-color-1-dark);
 }
 
 .outreach-join > div {

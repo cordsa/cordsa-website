@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Landing.css';
 
 export function Landing() {
@@ -14,7 +15,7 @@ export function Landing() {
             <b>Our mission</b> is to raise awareness for rare disorders, support research and education, and engage with community both on and off campus through advocacy and outreach. 
           </p>
           <div className="landing-button">
-            <button>Learn More</button>
+            <Link to="/about"><button>Learn More</button></Link>
           </div>
         </div>
       </section>
