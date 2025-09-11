@@ -52,6 +52,28 @@ header {
 }
 
 .link {
+  position: relative;
   color: var(--secondary-color-2);
   font-weight: 600;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background: var(--secondary-color-2);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+}
+
+.link.active::after {
+  transform: scaleX(1);
 }
