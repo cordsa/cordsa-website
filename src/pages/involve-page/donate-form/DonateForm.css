@@ -1,0 +1,108 @@
+#donate-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 90vh;
+  background-color: var(--secondary-color-1);
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+
+.donate-box {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 590px;
+  background-color: var(--primary-color);
+  margin-bottom: 50px;
+}
+
+.donate-box > h1 {
+  color: var(--accent-color-3);
+  font-size: 2.4rem;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.donate-box > h2 {
+  color: var(--secondary-color-2);
+  font-size: 1.4rem;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.donate-form {
+  display: flex;
+  align-items: baseline;
+  padding: 0 60px 40px 60px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: baseline;
+  width: 100%;
+  gap: 60px;
+}
+
+.first-name,
+.last-name,
+.donor-type,
+.address,
+.donor-group-name {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+}
+
+.form-row label {
+  color: var(--text-color);
+  text-align: left;
+}
+
+.form-row label span {
+  color: var(--secondary-color-1);
+}
+
+.donate-form > h3 {
+  color: var(--secondary-color-2);
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.paypal-button > img {
+  width: 115px;
+  margin-bottom: 2.5px;
+}
+
+.paypal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-color-4);
+  border: 2px solid var(--text-color);
+}
+
+.card-button {
+  color: var(--accent-color-3);
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border: 2px solid var(--text-color);
+}
+
+.paypal-button,
+.card-button {
+  width: 210px;
+  height: 50px;
+}
