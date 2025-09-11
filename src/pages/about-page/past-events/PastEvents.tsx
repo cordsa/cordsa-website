@@ -1,6 +1,6 @@
 import './PastEvent.css';
 import checkpoint from "./../../../assets/img/icons/event-point.svg";
-import { pastEvents, type Events } from '../../../data/past-events/events-info';
+import { pastEvents, type Events } from '../../../data/events-info';
 
 export function PastEvent() {
   return (

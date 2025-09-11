@@ -18,7 +18,7 @@ export function Header() {
         <ul className="header-links">
           <li><NavLink className="link" to="/about">About</NavLink></li>
           <li><NavLink className="link" to="/get-involved">Get Involved</NavLink></li>
-          <li><NavLink className="link" to ="/resources">Resources</NavLink></li>
+          <li><NavLink className="link" to="/resources">Resources</NavLink></li>
           <li><NavLink className="link" to="/contact-us">Contact Us</NavLink></li>
         </ul>
       </header>

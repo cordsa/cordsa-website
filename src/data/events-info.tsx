@@ -1,14 +1,14 @@
-import gala2023 from "../../assets/img/photos/past-events/gala-2023.png";
-import pumpkinCarving from "../../assets/img/photos/past-events/pumpkin-carving.png";
-import artsTreatsFest from "../../assets/img/photos/past-events/arts-treats-fest.png";
-import gala2024 from "../../assets/img/photos/past-events/gala-2024.png";
-import bakeSale from "../../assets/img/photos/past-events/bake-sale.png";
-import painAwarenessWeek from "../../assets/img/photos/past-events/pain-awareness.png";
-import doughnutParty from "../../assets/img/photos/past-events/doughnut-party.png";
-import bottleDrive from "../../assets/img/photos/past-events/bottle-drive.png";
-import moveNight from "../../assets/img/photos/past-events/movie-night.png";
-import bakeSale2 from "../../assets/img/photos/past-events/bake-sale-2.png";
-import gala2025 from "../../assets/img/photos/past-events/gala-2025.png";
+import gala2023 from "../assets/img/photos/past-events/gala-2023.png";
+import pumpkinCarving from "../assets/img/photos/past-events/pumpkin-carving.png";
+import artsTreatsFest from "../assets/img/photos/past-events/arts-treats-fest.png";
+import gala2024 from "../assets/img/photos/past-events/gala-2024.png";
+import bakeSale from "../assets/img/photos/past-events/bake-sale.png";
+import painAwarenessWeek from "../assets/img/photos/past-events/pain-awareness.png";
+import doughnutParty from "../assets/img/photos/past-events/doughnut-party.png";
+import bottleDrive from "../assets/img/photos/past-events/bottle-drive.png";
+import moveNight from "../assets/img/photos/past-events/movie-night.png";
+import bakeSale2 from "../assets/img/photos/past-events/bake-sale-2.png";
+import gala2025 from "../assets/img/photos/past-events/gala-2025.png";
 
 export interface Events {
   name: string;
