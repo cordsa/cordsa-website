@@ -5,7 +5,6 @@ import rdd from "../assets/img/photos/resources/rdd.png";
 import ucla from "../assets/img/photos/resources/ucla.png";
 import csa from "../assets/img/photos/resources/csa.png";
 
-
 export interface Articles {
   image: string, 
   name: React.ReactNode,
@@ -74,7 +73,7 @@ export const articles: Articles[] = [
         arthritis Association
       </b>
     </>,
-    date: "",
+    date: "2025",
     link: "https://sparthritis.ca/about/#whoweare",
   },
 ]

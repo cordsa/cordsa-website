@@ -8,12 +8,15 @@ export function Resources() {
         <h1>Articles</h1>
         <div className="articles-grid">
           {articles.map((article) => (
-            <>
+            <div className="article-box">
+              <div className="resources-line"></div>
               <img src={article.image} alt="article icon" />
-              <h1>{article.name}</h1>
-              <p>{article.date}</p>
-              <a href={article.link}>Read more</a>
-            </>
+              <div className="article-info">
+                <h1>{article.name}</h1>
+                <p>{article.date}</p>
+                <a href={article.link} target="_blank" rel="noreferrer noopener">Read more →</a>
+              </div>
+            </div>
           ))}
         </div>
       </section>
