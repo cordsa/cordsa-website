@@ -43,6 +43,7 @@
   height: 450px;
   gap: 65px;
   margin: 0 auto;
+  transition: transform 0.2 ease-in-out;
 }
 
 .event-image {
@@ -77,6 +78,14 @@
 
 .event-name > p {
   padding-left: 20px;
+}
+
+.event-box {
+  transition: transform 0.2s ease-in-out;
+}
+
+.event-box:hover {
+  transform: scale(1.04);
 }
 
 .event-box > p {

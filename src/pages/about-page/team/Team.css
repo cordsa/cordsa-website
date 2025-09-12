@@ -56,6 +56,11 @@
   border-radius: 10px;
   background-color: var(--secondary-color-1);
   color: var(--primary-color);
+  transition: transform 0.2s ease-in-out;
+}
+
+.member-box:hover {
+  transform: scale(1.04);
 }
 
 .member-box > img {
