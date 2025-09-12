@@ -39,10 +39,11 @@
   font-size: 1.3rem;
 }
 
-.past-event > img {
+.past-event-img {
   width: clamp(400px, 43%, 500px);
   border-radius: 40px;
-  z-index: 2;
+  position: relative;
+  z-index: 10;
 }
 
 .event-row {
@@ -61,6 +62,7 @@
   position: absolute;
   width: 400px;
   height: 400px;
+  z-index: 1;
 }
 
 
@@ -88,13 +90,15 @@
   min-height: 500px;
   border-left: 3px dashed var(--accent-color-2);
   position: absolute;
-  left: 50%;
+  left: 49.9%;
   transform: rotateX(-50%);
+  transform-origin: top;
 }
 
 .event-point {
   position: absolute;
-  top: 230px;
-  left: -21.5px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 41px;
+  height: 41px;
 }
