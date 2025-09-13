@@ -77,3 +77,34 @@ header {
 .link.active::after {
   transform: scaleX(1);
 }
+
+
+
+
+@media (max-width: 600px) {
+
+  #header {
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+  }
+  .meaning-text,
+  .cordsa-logo > h1 {
+    display: none;
+  }
+
+  .header-links {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .header-links > li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 376px) {
+  #header {
+    height: 180px;
+  }
+}
