@@ -55,3 +55,62 @@
 .landing-button {
   width: 80%;
 }
+
+@media (max-width: 768px) {
+  .landing-info > h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #landing {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-image {
+    width: 486px;
+    height: 500px;
+  }
+
+  .landing-info > h1 {
+    font-size: 1.8rem;
+  }
+
+  .landing-info {
+    box-sizing: border-box;
+    padding: 20px 0 100px 0;
+    margin-right: 52px;
+  }
+}
+
+@media (max-width: 376px) {
+  #landing {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-image {
+    width: 436px;
+  }
+
+  .landing-info > h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #landing {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-image {
+    width: 400px;
+  }
+
+  .landing-info > h1 {
+    font-size: 1.5rem;
+  }
+
+  .landing-info {
+    margin-right: 71px;
+  }
+}

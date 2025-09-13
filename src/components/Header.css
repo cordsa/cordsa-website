@@ -78,8 +78,28 @@ header {
   transform: scaleX(1);
 }
 
+@media (max-width: 1024px) {
+  .meaning-text {
+    display: none;
+  }
+  .cordsa-logo > h1 {
+    font-size: 40px;
+  }
+}
 
+@media (max-width: 768px) {
+  .meaning-text {
+    display: none;
+  }
 
+  .cordsa-logo > h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-links {
+    gap: 2.1rem;
+  }
+}
 
 @media (max-width: 600px) {
 
@@ -94,7 +114,7 @@ header {
   }
 
   .header-links {
-    gap: 10px;
+    gap: 1.1rem;
     flex-wrap: wrap;
   }
 
