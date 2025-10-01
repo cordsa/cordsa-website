@@ -49,7 +49,7 @@ button {
   overflow: hidden;
   z-index: 1;
   background: none;
-  color: inherit;   
+  color: var(--primary-color);   
 }
 
 button::before {
