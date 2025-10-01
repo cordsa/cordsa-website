@@ -56,8 +56,33 @@
   background-color: var(--secondary-color-2-dark);
 }
 
-.slide-show > img {
+.slide-show img {
   width: clamp(400px, 68%, 900px);
   height: auto;
   border-radius: 40px;
+}
+
+@media (max-width: 600px) {
+  #donate {
+    flex-wrap: wrap;
+    height: 900px;
+  }
+
+  .support-tab {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .donate-desc > p {
+    font-size: 1rem;
+    width: 350px;
+  }
+
+  #donate .slide-show > img {
+    width: clamp(400px, 0%, 900px);
+    height: auto;
+    border-radius: 40px;
+    background-color: black;
+  }
+
 }
