@@ -10,7 +10,6 @@
 }
 
 .questions-box {
-  width: 850px;
   border: 3px solid var(--secondary-color-2);
   position: relative;
   padding: 70px 50px;
@@ -53,7 +52,6 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
-  width: 850px;
   position: relative;
   text-align: left;
   background-color: var(--accent-color);
@@ -70,6 +68,14 @@
 .join-box > p {
   color: var(--text-color);
   font-size: 1.1rem;
+}
+
+.questions-box,
+.join-box {
+  width: 100%;
+  max-width: 500px;
+  min-width: 500px;
+  box-sizing: border-box;
 }
 
 .member-button {

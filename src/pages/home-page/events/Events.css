@@ -11,8 +11,15 @@
 .events-info {
   display: flex;
   justify-content: space-between;
-  padding: 60px 64px 0 64px;
+  padding: 60px 64px 55px 64px;
   align-items: center;
+}
+
+.events-container {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 45px;
+  box-sizing: border-box;
 }
 
 .events-info > h1 {
