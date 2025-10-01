@@ -15,9 +15,9 @@ export function Footer() {
           <div className="follow">
             <b>Follow Us :</b>
             <div>
-              <a href="https://www.instagram.com/cordsa_ualberta"><img src={instagram} alt="instagram icon" /></a>
-              <a href="https://www.facebook.com/cordualberta"><img src={tiktok} alt="tiktok icon" /></a>
-              <a href="https://www.tiktok.com/@cordsa_ualberta"><img src={facebook} alt="facebook icon" /></a>
+              <a href="https://www.instagram.com/cordsa_ualberta" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram icon" /></a>
+              <a href="https://www.tiktok.com/@cordsa_ualberta" target="_blank" rel="noopener noreferrer"><img src={tiktok} alt="tiktok icon" /></a>
+              <a href="https://www.facebook.com/cordualberta" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook icon" /></a>
             </div>
           </div>
         </div>
