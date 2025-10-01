@@ -1,3 +1,11 @@
+/**
+ * See README.md for full editing instructions.
+ * Quick steps:
+ * - To edit: update the fields inside a block { ... }.
+ * - To add: copy an entire block { ... }, paste below, then update image/name/role.
+ * - To delete: remove the whole block.
+ */
+
 import Victoria from "../../../assets/img/team/2025-2026/victoria.png";
 import Laura from "../../../assets/img/team/2025-2026/laura.png";
 import Ella from "../../../assets/img/team/2025-2026/ella.png";

@@ -1,3 +1,11 @@
+/**
+ * See README.md for full editing instructions.
+ * Quick steps:
+ * - To edit: update the fields inside a block { ... }.
+ * - To add: copy an entire block { ... }, paste below, then update images/name/date/link.
+ * - To delete: remove the whole block.
+ */
+
 import cord from "../assets/img/photos/resources/cord.png";
 import rkc from "../assets/img/photos/resources/rkc.png";
 import ws from "../assets/img/photos/resources/ws.png";

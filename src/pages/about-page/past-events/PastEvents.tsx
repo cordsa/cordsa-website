@@ -1,6 +1,6 @@
 import './PastEvent.css';
 import checkpoint from "./../../../assets/img/icons/event-point.svg";
-import { pastEvents, type Events } from '../../../data/events-info';
+import { pastEvents, type Events } from '../../../data/past-events-info';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { motion, type Variants, type MotionProps } from 'framer-motion';
@@ -64,7 +64,6 @@ export function PastEvent() {
     viewport: { once: true, amount: 0.6 }
   }
 
-
   return (
     <>
       <section id="past-event">
@@ -91,7 +90,6 @@ export function PastEvent() {
                 src={event.image}
                 alt={event.name}
               />
-
 
               <motion.div {...lineMovement} className="past-events-line">
               </motion.div>

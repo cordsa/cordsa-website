@@ -1,3 +1,11 @@
+/**
+ * See README.md for full editing instructions.
+ * Quick steps:
+ * - To edit: update the fields inside a block { ... }.
+ * - To add: copy an entire block { ... }, paste below, then update name/info/image.
+ * - To delete: remove the whole block.
+ */
+
 import gala2023 from "../assets/img/photos/past-events/gala-2023.png";
 import pumpkinCarving from "../assets/img/photos/past-events/pumpkin-carving.png";
 import artsTreatsFest from "../assets/img/photos/past-events/arts-treats-fest.png";
