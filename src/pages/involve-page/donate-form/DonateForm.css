@@ -7,6 +7,15 @@
   background-color: var(--secondary-color-1);
   padding-top: 140px;
   box-sizing: border-box;
+  position: relative;
+}
+
+.donate-note {
+  position: absolute;
+  font-size: 1rem;
+  top: 14%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .donate-box {

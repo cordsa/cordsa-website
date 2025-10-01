@@ -26,6 +26,7 @@ export function DonateForm() {
   return (
     <>
       <section id="donate-form">
+        <p className="donate-note">Note: The donation form isn’t active yet. Coming soon!</p>
         <div className="donate-box">
           <h1>Donate Online</h1>
           <h2>Donation Info</h2>
