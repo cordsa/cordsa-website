@@ -66,6 +66,8 @@ export function DonateForm() {
                 <label htmlFor="company">Company Name / Group</label>
                 <input type="text" id="company" name="company" />
               </div>
+
+              <div className="placeholder-input"></div>
             </div>
 
             <h3>Payment</h3>

@@ -52,10 +52,16 @@
 .last-name,
 .donor-type,
 .address,
-.donor-group-name {
+.donor-group-name,
+.placeholder-input {
   display: flex;
   flex-direction: column;
   width: 425px;
+}
+
+.placeholder-input {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .form-row label {
