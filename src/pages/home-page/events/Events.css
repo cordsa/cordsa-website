@@ -101,3 +101,59 @@
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
+
+@media (max-width: 600px) {
+  #events {
+    min-height: 1800px;
+  }
+
+  .events-info {
+    justify-content: center;
+  }
+
+  .archive-button {
+    display: none;
+  }
+
+  .events-info > h1 {
+    white-space: nowrap;
+  }
+
+  .event-boxes {
+    grid-template-columns: 1fr;
+    width: 330px;
+  }
+}
+
+@media (max-width: 376px) {
+  #events {
+    min-height: 1780px;
+  }
+
+  .event-boxes {
+    width: 300px;
+  }
+
+  .events-info > h1 {
+    font-size: 2rem;
+  }
+
+  .event-box > p {
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 326px) {
+  #events {
+    min-height: 1880px;
+  }
+
+  .event-boxes {
+    width: 260px;
+  }
+  
+  .event-box > p {
+    font-size: 1rem;
+    padding-bottom: 50px;
+  }
+}
