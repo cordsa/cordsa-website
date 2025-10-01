@@ -61,7 +61,6 @@ form input {
 }
 
 form textarea {
-  width: 502px;
   height: 170px;
   padding: 10px 5px 10px 5px;
   resize: none;
@@ -95,3 +94,6 @@ form textarea {
   text-decoration-skip-ink: none;
 }
 
+.success-message {
+  color: var(--secondary-color-2);
+}

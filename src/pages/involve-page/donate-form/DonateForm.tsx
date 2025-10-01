@@ -1,14 +1,42 @@
 import './DonateForm.css';
 import paypal from "../../../assets/img/icons/paypal.png";
+import { useState } from "react";
 
 export function DonateForm() {
+  const [status, setStatus] = useState<string>("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+
+    await fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+      headers: { Accept: "application/json" },
+    });
+
+    setStatus("Form submitted!");
+    form.reset();
+
+    setTimeout(() => {
+      setStatus("");
+    }, 5000);
+  };
+
   return (
     <>
-<section id="donate-form">
+      <section id="donate-form">
         <div className="donate-box">
           <h1>Donate Online</h1>
           <h2>Donation Info</h2>
-          <form className="donate-form" action="#" method="post">
+          <form
+            className="donate-form"
+            action="https://formspree.io/f/movkdzyr"
+            method="POST"
+            onSubmit={handleSubmit}
+          >
+            <input type="hidden" name="formType" value="Donor Form" />
+
             <div className="form-row">
               <div className="first-name">
                 <label htmlFor="firstName">First Name <span>*</span></label>
@@ -45,11 +73,15 @@ export function DonateForm() {
               <button type="button" className="paypal-button">
                 <img src={paypal} alt="paypal logo" />
               </button>
-              <button type="button" className="card-button">Donate with card</button>
+              <button type="button" className="card-button">
+                Donate with card
+              </button>
             </div>
+
+            {status && <p className="success-message">{status}</p>}
           </form>
         </div>
       </section>
     </>
-  )
+  );
 }
