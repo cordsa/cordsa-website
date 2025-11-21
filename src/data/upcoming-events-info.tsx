@@ -22,7 +22,7 @@ export const upcomingEvents: Event[] = [
     name: "Candy Cane Gram Workshop",
     info: (
       <>
-        Join us for our first <b> Candy cane workshop </b>b> on  <b>Monday. Dec 1</b>b>, from <b>5:00-7:00 PM</b>b> in <b>ECHA 2-430</b>b>. 
+        Join us for our first <b>Candy cane workshop</b> on <b>Monday. Dec 1</b>, from <b>5:00-7:00 PM</b> in <b>ECHA 2-430</b>. 
         Create personalized candy-gram gifts for friends, classmates, or loved ones while enjoying a fun, hands-on break from coursework 
         that helps you spread a little joy across campus.
       </>
