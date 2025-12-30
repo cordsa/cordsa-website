@@ -111,7 +111,7 @@
 
 @media (max-width: 600px) {
   #events {
-    min-height: 1800px;
+    min-height: fit-content;
   }
 
   .events-info {
@@ -133,10 +133,6 @@
 }
 
 @media (max-width: 376px) {
-  #events {
-    min-height: 1780px;
-  }
-
   .event-boxes {
     width: 300px;
   }
@@ -151,10 +147,6 @@
 }
 
 @media (max-width: 326px) {
-  #events {
-    min-height: 1880px;
-  }
-
   .event-boxes {
     width: 260px;
   }

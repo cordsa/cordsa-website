@@ -65,7 +65,8 @@
 @media (max-width: 600px) {
   #donate {
     flex-wrap: wrap;
-    height: 900px;
+    padding-top: 120px;
+    height: fit-content;
   }
 
   .support-tab {
@@ -84,5 +85,28 @@
     border-radius: 40px;
     background-color: black;
   }
+}
 
+@media (max-width: 376px) {
+  .support-tab {
+    font-size: 2.2rem;
+  }
+
+  .donate-desc > p {
+    width: 300px;
+  }
+
+  .slide-show > img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 326px) {
+  .support-tab {
+    font-size: 2rem;
+  }
+
+  .donate-desc > p {
+    width: 250px;
+  }
 }
