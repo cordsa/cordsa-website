@@ -154,8 +154,7 @@
 @media (max-width: 376px) {
   #outreach {
     padding-top: 50px;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
   }
 
   .outreach-join {
@@ -188,8 +187,7 @@
 @media (max-width: 326px) {
   #outreach {
     padding-top: 50px;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 0px;
   }
 
   .outreach-join h1 {

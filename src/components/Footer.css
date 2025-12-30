@@ -50,3 +50,21 @@ footer {
 .copyright > a {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .location {
+    display: none;
+  }
+
+  .copyright > a {
+    display: none;
+  }
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 326px) {
+
+}
