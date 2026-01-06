@@ -24,4 +24,14 @@ export const upcomingEvents: Event[] = [
     ),
     image: candyCane,
   },
+  
+  {
+    name: "Merch Sale",
+    info: (
+      <>
+        Our <b>Merch Sale</b> is happening <b>online</b> from <b>January 4–16</b>! Grab exclusive items, show your support, and help raise funds for our cause.
+      </>
+    ),
+    image: merchSign,
+  },
 ];
