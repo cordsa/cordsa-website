@@ -6,7 +6,6 @@
  * - To delete: remove the whole block.
  */
 
-import candyCane from "../assets/img/photos/events/candy-cane.png";
 import movieNight from "../assets/img/photos/events/movie-night.png";
 import bottleDrive from "../assets/img/photos/events/bottle-drive.png";
 import valentinesDay from "../assets/img/photos/events/valentines-day.png";
@@ -17,17 +16,7 @@ export interface Event {
   image: string;
 }
 
-export const upcomingEvents: Event[] = [
-  {
-    name: "Candy Cane Gram Workshop",
-    info: (
-      <>
-        Join us for our first <b>Candy cane workshop</b> on <b>Monday. Dec 1</b>, from <b>5:00-7:00 PM</b> in <b>ECHA 2-430</b>. Create personalized candy-gram gifts for friends, classmates, or loved ones while enjoying a fun, hands-on break from coursework that helps you spread a little joy across campus.
-      </>
-    ),
-    image: candyCane,
-  },
-  
+export const upcomingEvents: Event[] = [ 
   {
     name: "Movie Night",
     info: (
