@@ -7,6 +7,8 @@
  */
 
 import candyCane from "../assets/img/photos/events/candy-cane.png";
+import movieNight from "../assets/img/photos/events/movie-night.png";
+
 
 export interface Event {
   name: string;
@@ -26,12 +28,12 @@ export const upcomingEvents: Event[] = [
   },
   
   {
-    name: "Merch Sale",
+    name: "Movie Night",
     info: (
       <>
-        Our <b>Merch Sale</b> is happening <b>online</b> from <b>January 4–16</b>! Grab exclusive items, show your support, and help raise funds for our cause.
+        Join us for <b>Movie Night</b> on <b>Thursday, Jan. 15</b>, from <b>5:00–7:00 PM</b> in <b>ECHA 2-420</b>. We will be screening <b>”The Theory of Everything”</b>, a powerful film that highlights the realities of living with ALS disease.
       </>
     ),
-    image: merchSign,
+    image: movieNight,
   },
 ];
