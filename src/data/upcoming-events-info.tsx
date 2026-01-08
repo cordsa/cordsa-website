@@ -8,6 +8,7 @@
 
 import candyCane from "../assets/img/photos/events/candy-cane.png";
 import movieNight from "../assets/img/photos/events/movie-night.png";
+import bottleDrive from "../assets/img/photos/events/bottle-drive.png";
 
 
 export interface Event {
@@ -35,5 +36,15 @@ export const upcomingEvents: Event[] = [
       </>
     ),
     image: movieNight,
+  },
+  
+  {
+    name: "Bottle Drive",
+    info: (
+      <>
+        We’re hosting a <b>Bottle Drive</b> on <b>Friday, Jan. 30</b> from <b>12:00–5:00 PM</b> on <b>Whyte Avenue</b>. Come out and help us collect bottles and cans to support our cause—every bottle counts!
+      </>
+    ),
+    image: bottleDrive,
   },
 ];
