@@ -9,7 +9,7 @@
 import candyCane from "../assets/img/photos/events/candy-cane.png";
 import movieNight from "../assets/img/photos/events/movie-night.png";
 import bottleDrive from "../assets/img/photos/events/bottle-drive.png";
-
+import valentinesDay from "../assets/img/photos/events/valentines-day.png";
 
 export interface Event {
   name: string;
@@ -46,5 +46,15 @@ export const upcomingEvents: Event[] = [
       </>
     ),
     image: bottleDrive,
+  },
+  
+  {
+    name: "Valentine’s Day Bake Sale",
+    info: (
+      <>
+        Celebrate Valentine’s Day with our <b>Bake Sale</b> on <b>February 12 and 13</b> from <b>9:00 AM–5:00 PM</b> in <b>ECHA</b>! Stop by to treat yourself (or someone special) to a variety of delicious homemade goodies, support our cause, and help us spread a little extra love on campus.
+      </>
+    ),
+    image: valentinesDay,
   },
 ];
