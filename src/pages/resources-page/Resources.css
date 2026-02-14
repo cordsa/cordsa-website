@@ -102,8 +102,8 @@
 
 @media (max-width: 600px) {
   #resources {
-    padding-top: 120px;
-    padding-bottom: 80px;
+    padding-top: 200px;
+    padding-bottom: 110px;
     gap: 50px;
   }
 

@@ -87,3 +87,69 @@
 .member-button::before {
   background-color: var(--secondary-color-1-dark);
 }
+
+@media (max-width: 768px) {
+  #inquiries {
+    flex-direction: column;
+    padding: 80px 100px 60px;
+    gap: 50px;
+  }
+
+  .questions-box,
+  .join-box {
+    min-width: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #inquiries {
+    flex-direction: column;
+    padding: 80px 20px 60px;
+    gap: 50px;
+  }
+
+  .questions-box,
+  .join-box {
+    min-width: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .questions-box {
+    padding: 50px 25px;
+  }
+
+  .questions-box > h1 {
+    font-size: 1.6rem;
+  }
+
+  .join-box {
+    padding: 35px 25px;
+  }
+
+  .join-box > h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 376px) {
+  #inquiries {
+    padding: 70px 15px 50px;
+    gap: 40px;
+  }
+
+  .questions-box > h1 {
+    font-size: 1.4rem;
+  }
+
+  .questions-box > p,
+  .questions-box > h2 {
+    font-size: 1rem;
+  }
+
+  .join-box > h1 {
+    font-size: 1.4rem;
+  }
+}
