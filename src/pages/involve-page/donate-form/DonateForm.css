@@ -133,3 +133,76 @@
   width: 210px;
   height: 50px;
 }
+
+@media (max-width: 600px) {
+  #donate-form {
+    padding-top: 210px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .donate-note {
+    font-size: 0.9rem;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .donate-box {
+    width: 95vw;
+    margin: 0 auto 50px;
+    height: auto;
+    min-height: 500px;
+  }
+
+  .donate-box > h1 {
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 1.8rem;
+  }
+
+  .donate-box > h2 {
+    padding-left: 20px;
+    font-size: 1.2rem;
+  }
+
+  .donate-form {
+    flex-direction: column;
+    padding: 0 20px 40px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .first-name,
+  .last-name,
+  .donor-type,
+  .address,
+  .donor-group-name,
+  .placeholder-input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .payment-options {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .paypal-button,
+  .card-button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 376px) {
+  .donate-box > h1 {
+    font-size: 1.5rem;
+  }
+
+  .donate-box > h2 {
+    font-size: 1.1rem;
+  }
+}
