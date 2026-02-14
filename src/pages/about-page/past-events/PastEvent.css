@@ -103,3 +103,145 @@
   width: 41px;
   height: 41px;
 }
+
+@media (max-width: 768px) {
+  #past-event {
+    padding: 70px 40px 60px;
+    margin-top: 100px;
+  }
+
+  .past-event-header {
+    width: 100%;
+    max-width: 380px;
+    font-size: 2.5rem;
+  }
+
+  .past-event-info {
+    width: 100%;
+    max-width: 420px;
+    transform: scale(0.88);
+    margin-left: 30px;
+  }
+
+  .past-event-info > h1 {
+    font-size: 2rem;
+  }
+
+  .past-event-info > p {
+    font-size: 1.05rem;
+  }
+
+  .past-event-img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .event-row,
+  .event-row.reverse {
+    gap: 3rem;
+    padding-top: 5rem;
+  }
+
+  .event-bubble,
+  .left-bubble,
+  .right-bubble {
+    width: 280px;
+    height: 280px;
+  }
+
+  .left-bubble {
+    top: 180px;
+    left: -40px;
+  }
+
+  .right-bubble {
+    top: 30px;
+    right: -40px;
+  }
+
+  .past-events-line {
+    height: 640px;
+    z-index: 0;
+  }
+
+  footer {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  #past-event {
+    padding: 80px 20px 60px;
+    margin-top: 100px;
+  }
+
+  .past-event-header {
+    width: 100%;
+    max-width: 320px;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .past-event-info {
+    width: 100%;
+    max-width: 330px;
+  }
+
+  .past-event-info > h1 {
+    font-size: 1.8rem;
+  }
+
+  .past-event-info > p {
+    font-size: 1rem;
+  }
+
+  .past-event-img {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .event-row,
+  .event-row.reverse {
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 4rem;
+  }
+
+  .event-bubble,
+  .left-bubble,
+  .right-bubble {
+    display: none;
+  }
+
+  .past-events-line {
+    left: 20px;
+    min-height: 400px;
+  }
+
+  .event-point {
+    left: 20px;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 376px) {
+
+  .past-event-header {
+    font-size: 1.8rem;
+    max-width: 280px;
+  }
+
+  .past-event-info {
+    margin-left: 50px;
+  }
+
+  .past-event-info > h1 {
+    font-size: 1.5rem;
+  }
+
+  .past-event-img {
+    transform: scale(0.7);
+    margin-left: 20px;
+  }
+}

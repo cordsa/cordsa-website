@@ -80,3 +80,60 @@
   font-size: 1.75rem;
   font-weight: normal;
 }
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+
+  .team-grid > *:last-child:nth-child(3n + 1) {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  #team {
+    padding: 80px 20px 60px;
+    min-height: fit-content;
+  }
+
+  .team-header {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .team-line {
+    width: 60%;
+  }
+
+  .team-header-text > h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .team-header-text > h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .team-grid {
+    grid-template: 1fr / 1fr;
+    gap: 1.5rem;
+  }
+
+  .member-box {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 376px) {
+  .team-header-text > h1 {
+    font-size: 1.8rem;
+  }
+
+  .member-box {
+    max-width: 280px;
+  }
+}
