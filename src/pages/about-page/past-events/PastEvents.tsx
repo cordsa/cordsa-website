@@ -94,7 +94,7 @@ export function PastEvent() {
 
               <motion.div {...lineMovement} className="past-events-line">
               </motion.div>
-              <img className="event-point" src={checkpoint} alt="event point" loading="lazy"/>
+              <img className="event-point" src={checkpoint} alt="event point"/>
             </div>
           </>
         ))}

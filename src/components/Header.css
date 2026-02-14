@@ -21,6 +21,7 @@ header {
 .cordsa-logo > img {
   width: auto;
   height: 75px;
+  background: none;
 }
 
 .cordsa-logo h1 {

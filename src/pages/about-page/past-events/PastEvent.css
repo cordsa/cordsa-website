@@ -102,6 +102,7 @@
   transform: translateX(-50%);
   width: 41px;
   height: 41px;
+  background: none;
 }
 
 @media (max-width: 768px) {
