@@ -97,3 +97,48 @@ form textarea {
 .success-message {
   color: var(--secondary-color-2);
 }
+
+@media (max-width: 600px) {
+  #contact {
+    padding: 100px 20px 20px;
+  }
+
+  .contact-box {
+    width: 100%;
+    min-width: unset;
+    padding: 25px 40px;
+    margin-right: 40px;
+    height: auto;
+    min-height: 400px;
+    transform: scale(0.85);
+  }
+
+  .contact-box > h1 {
+    font-size: 2rem;
+    left: 20px;
+  }
+
+  .contact-box > p {
+    font-size: 1rem;
+    left: 20px;
+  }
+
+  form {
+    width: 100%;
+    min-width: unset;
+  }
+
+  form input {
+    padding: 10px 10px 10px 5px;
+  }
+}
+
+@media (max-width: 376px) {
+  .contact-box > h1 {
+    font-size: 1.6rem;
+  }
+
+  .contact-box > p {
+    font-size: 1rem;
+  }
+}
