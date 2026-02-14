@@ -12,7 +12,7 @@ export function Donate() {
           <Link className="donate-button-link" to="/get-involved"><button className="donate-button">Donate Now</button></Link>
         </div>
         <div className="slide-show">
-          <img src={presentation} alt="presentation img" />
+          <img src={presentation} alt="presentation img" loading="lazy" />
         </div>
       </section>
     </>

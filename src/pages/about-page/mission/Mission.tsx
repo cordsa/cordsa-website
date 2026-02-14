@@ -34,7 +34,8 @@ export function Mission() {
         <div className="slide-show">
           <img 
             src={teams[current]} 
-            alt={`team ${current + 1}`} 
+            alt={`team ${current + 1}`}
+            loading="lazy"
           />
         </div>
       </section>

@@ -18,7 +18,7 @@ export function Events() {
           {upcomingEvents.map((event, index) => (
             <div className="event-box" key={index}>
               <div className="event-image">
-                <img src={event.image} alt={event.name} />
+                <img src={event.image} alt={event.name} loading="lazy" />
               </div>
               <div className="event-name">
                 <p>{event.name}</p>

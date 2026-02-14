@@ -10,7 +10,7 @@ export function Resources() {
           {articles.map((article) => (
             <div className="article-box">
               <div className="resources-line"></div>
-              <img src={article.image} alt="article icon" />
+              <img src={article.image} alt="article icon" loading="lazy" />
               <div className="article-info">
                 <h1>{article.name}</h1>
                 <p>{article.date}</p>
