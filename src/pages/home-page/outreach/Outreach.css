@@ -105,6 +105,7 @@
 .quote-icon,
 .quote-icon-reverse {
   width: 54px;
+  background: none;
 }
 
 .quote-icon {
