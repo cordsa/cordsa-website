@@ -5,7 +5,7 @@ export function Founders() {
   return (
     <>
       <section id="founders">
-        <img src={founders} alt="founders image" loading="lazy" />
+        <img src={founders} alt="founders image" />
         <div className="founders-text">
           <h1>Our Founders</h1>
           <ul className="founders-text-list">
