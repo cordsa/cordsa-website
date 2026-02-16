@@ -1,7 +1,4 @@
 /* Grey placeholder while images load */
-img {
-  background-color: #e0e0e0;
-}
 
 img[loading="lazy"] {
   background-color: #e0e0e0;
