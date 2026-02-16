@@ -74,7 +74,7 @@ export function DonateForm() {
             <h3>Payment</h3>
             <div className="payment-options">
               <button type="button" className="paypal-button">
-                <img src={paypal} alt="paypal logo" loading="lazy" />
+                <img src={paypal} alt="paypal logo"/>
               </button>
               <button type="button" className="card-button">
                 Donate with card
