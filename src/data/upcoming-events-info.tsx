@@ -9,6 +9,8 @@
 import movieNight from "../assets/img/photos/events/movie-night.png";
 import bottleDrive from "../assets/img/photos/events/bottle-drive.png";
 import valentinesDay from "../assets/img/photos/events/valentines-day.png";
+import rddGala from "../assets/img/photos/events/rdd-gala.png";
+
 
 export interface Event {
   name: string;
@@ -45,5 +47,15 @@ export const upcomingEvents: Event[] = [
       </>
     ),
     image: valentinesDay,
+  },
+
+   {
+    name: "Rare Disease Day Gala",
+    info: (
+      <>
+        Join us for our annual <b>Rare Disease Day Gala</b>—our biggest event of the year—on <b>Friday, Feb. 27</b>, from <b>5:30–8:30 PM</b> in the <b>Maple Leaf Room at the Lister Conference Centre</b>, University of Alberta. 
+        This year’s theme focuses on <b>rare neurodegenerative disorders</b>, with proceeds supporting the <b>ALS Society of Alberta</b>. Enjoy an evening of inspiring speeches, dinner, and a silent auction in support of an important cause.
+    ),
+    image: rddGala,
   },
 ];
