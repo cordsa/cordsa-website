@@ -55,6 +55,7 @@ export const upcomingEvents: Event[] = [
       <>
         Join us for our annual <b>Rare Disease Day Gala</b>—our biggest event of the year—on <b>Friday, Feb. 27</b>, from <b>5:30–8:30 PM</b> in the <b>Maple Leaf Room at the Lister Conference Centre</b>, University of Alberta. 
         This year’s theme focuses on <b>rare neurodegenerative disorders</b>, with proceeds supporting the <b>ALS Society of Alberta</b>. Enjoy an evening of inspiring speeches, dinner, and a silent auction in support of an important cause.
+      </>  
     ),
     image: rddGala,
   },
