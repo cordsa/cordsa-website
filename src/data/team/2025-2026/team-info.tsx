@@ -6,12 +6,12 @@
  * - To delete: remove the whole block.
  */
 
-import Victoria from "../../../assets/img/team/2025-2026/victoria.png";
-import Laura from "../../../assets/img/team/2025-2026/laura.png";
-import Ella from "../../../assets/img/team/2025-2026/ella.png";
-import Marshali from "../../../assets/img/team/2025-2026/marshali.png";
-import Joe from "../../../assets/img/team/2025-2026/joe.png";
-import Natyflor from "../../../assets/img/team/2025-2026/natyflor.png";
+import Dian from "../../../assets/img/team/2026-27/DianRruki - Dian Rruki.heic";
+import Shimaz from "../../../assets/img/team/2026-27/IMG_1383 - Shimaz Ahmed.heic";
+import Joe from "../../../assets/img/team/2026-27/4FEBA916-5F51-4691-97A7-22ED176B6F6E - Joe Hoogland.jpeg";
+import Marshali from "../../../assets/img/team/2026-27/IMG_5467 - Marshali Edirisinghe.jpeg";
+import Shwetha from "../../../assets/img/team/2026-27/20250901_114016(1) - Shwetha Gopinath.jpg";
+import Nabeeha from "../../../assets/img/team/2026-27/photo - Nabeeha Irfan.jpeg";
 import Dana from "../../../assets/img/team/2025-2026/dana.png";
 
 export interface TeamMember {
@@ -22,7 +22,7 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
   {
-    image: Victoria,
+    image: Joe,
     name: "Joe Hoogland",
     role: "Co-President",
   },
@@ -32,7 +32,7 @@ export const teamMembers: TeamMember[] = [
     role: "Co-President",
   },
   {
-    image: Ella,
+    image: Dian,
     name: "Dian Rruki",
     role: "Treasurer / Administration",
   },
@@ -42,17 +42,17 @@ export const teamMembers: TeamMember[] = [
     role: "Chief Advisor",
   },
   {
-    image: Joe,
+    image: Shwetha,
     name: "Shwetha Gopinath",
     role: "VP Fundraising / Corporate Relations",
   },
   {
-    image: Natyflor,
+    image: Shimaz,
     name: "Shimaz Ahmed",
     role: "VP Marketing",
   },
   {
-    image: Laura,
+    image: Nabeeha,
     name: "Nabeeha Irfan",
     role: "VP Education",
   },
