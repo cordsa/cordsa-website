@@ -52,7 +52,7 @@ export const teamMembers: TeamMember[] = [
     role: "VP Marketing",
   },
   {
-    image: Dana,
+    image: Laura,
     name: "Nabeeha Irfan",
     role: "VP Education",
   },
