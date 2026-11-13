@@ -27,12 +27,12 @@ export const teamMembers: TeamMember[] = [
     role: "Co-President",
   },
   {
-    image: Laura,
+    image: Marshali,
     name: "Marshali Edirisinghe",
     role: "Co-President",
   },
   {
-    image: Marshali,
+    image: Ella,
     name: "Dian Rruki",
     role: "Treasurer / Administration",
   },
