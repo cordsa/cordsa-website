@@ -32,7 +32,7 @@ export const teamMembers: TeamMember[] = [
     role: "Co-President",
   },
   {
-    image: Ella,
+    image: Marshali,
     name: "Dian Rruki",
     role: "Treasurer / Administration",
   },
