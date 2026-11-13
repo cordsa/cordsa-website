@@ -1,8 +1,12 @@
 /* CORDSA TEAM SECTION */
 
 #team {
-  width: 100%;
-  max-width: 100%;
+  /* Full-width breakout so the grey box spans the whole page */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  max-width: 100vw;
   min-height: 800px;
   box-sizing: border-box;
   margin: 0;
