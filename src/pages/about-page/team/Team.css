@@ -1,16 +1,52 @@
+
+#team {
+  width: 100%;
+  min-height: 800px;
+  background-color: var(--primary-color-2);
+  box-sizing: border-box;
+  padding: 90px 50px;
+}
+
+.team-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.team-line {
+  width: 30%;
+  height: 2px;
+  background-color: var(--secondary-color-2);
+}
+
+.team-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-header-text > h1 {
+  font-size: 3rem;
+  color: var(--secondary-color-2);
+  text-align: center;
+}
+
 .team-header-text > h2 {
   font-size: 1.4rem;
   margin: 0;
   color: var(--secondary-color-1);
+  text-align: center;
 }
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 290px));
   gap: 3rem 2rem;
+  justify-content: center;
   justify-items: center;
-  align-items: stretch;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -20,7 +56,6 @@
 
 .member-box {
   width: 100%;
-  max-width: 290px;
   min-width: 0;
   min-height: 380px;
   box-sizing: border-box;
@@ -42,27 +77,33 @@
   height: 280px;
   object-fit: cover;
   object-position: center;
+  border-radius: 9px 9px 0 0;
+}
+
+/* Show more of Joe's face */
+.member-box:first-child > img {
+  object-position: center top;
 }
 
 .member-box > div {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   padding: 20px;
   text-align: left;
   gap: 14px;
-  overflow-wrap: anywhere;
+  box-sizing: border-box;
 }
 
 .member-box > div > h1 {
   font-size: 1.75rem;
   font-weight: normal;
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .team-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 290px));
   }
 
   .team-grid > *:last-child:nth-child(3n + 1) {
@@ -88,21 +129,19 @@
 
   .team-header-text > h1 {
     font-size: 2.2rem;
-    text-align: center;
   }
 
   .team-header-text > h2 {
     font-size: 1.2rem;
-    text-align: center;
   }
 
   .team-grid {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 300px);
     gap: 1.5rem;
   }
 
   .member-box {
-    max-width: 300px;
+    width: 100%;
   }
 }
 
@@ -111,7 +150,7 @@
     font-size: 1.8rem;
   }
 
-  .member-box {
-    max-width: 280px;
+  .team-grid {
+    grid-template-columns: minmax(0, 280px);
   }
 }
