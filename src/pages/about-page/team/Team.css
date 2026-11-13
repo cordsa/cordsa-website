@@ -1,15 +1,14 @@
 /* CORDSA TEAM SECTION */
 
 #team {
-  /* Full-width breakout so the grey box spans the whole page */
+  /* Full-width section: breaks out of any parent container */
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100vw;
   max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   min-height: 800px;
   box-sizing: border-box;
-  margin: 0;
   padding: 90px 40px;
   background-color: var(--primary-color-2);
   display: flex;
@@ -21,11 +20,12 @@
 
 .team-header {
   width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 60px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin-bottom: 60px;
 }
 
 .team-line {
@@ -133,6 +133,10 @@
 
 @media (max-width: 1000px) {
   .team-grid {
+    max-width: 620px;
+  }
+
+  .team-header {
     max-width: 620px;
   }
 }
