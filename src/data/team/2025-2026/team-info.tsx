@@ -23,37 +23,37 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     image: Victoria,
-    name: "Victoria Hristova",
+    name: "Joe Hoogland",
     role: "Co-President",
   },
   {
     image: Laura,
-    name: "Laura Ekekhor",
+    name: "Marshali Edirisinghe",
     role: "Co-President",
   },
   {
     image: Ella,
-    name: "Ella Jurasz",
-    role: "Treasurer",
-  },
-  {
-    image: Marshali,
-    name: "Marshali Edirisinghe",
-    role: "Chief Advisor / Administration",
-  },
-  {
-    image: Joe,
-    name: "Joe Hoogland",
-    role: "VP Fundraising / Corporate Relations",
-  },
-  {
-    image: Natyflor,
-    name: "Natyflor Sumalin",
-    role: "VP Marketing",
+    name: "Dian Rruki",
+    role: "Treasurer / Administration",
   },
   {
     image: Dana,
     name: "Dana Arteaga",
+    role: "Chief Advisor",
+  },
+  {
+    image: Joe,
+    name: "Shwetha Gopinath",
+    role: "VP Fundraising / Corporate Relations",
+  },
+  {
+    image: Natyflor,
+    name: "Shimaz Ahmed",
+    role: "VP Marketing",
+  },
+  {
+    image: Dana,
+    name: "Nabeeha Irfan",
     role: "VP Education",
   },
 ];
