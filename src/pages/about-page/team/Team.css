@@ -1,11 +1,19 @@
 
+/* CORDSA TEAM SECTION */
+
 #team {
   width: 100%;
+  max-width: none;
   min-height: 800px;
-  background-color: var(--primary-color-2);
-  box-sizing: border-box;
+  margin: 0 auto;
   padding: 90px 50px;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+  background-color: var(--primary-color-2);
 }
+
+/* TEAM HEADER */
 
 .team-header {
   display: flex;
@@ -13,6 +21,7 @@
   align-items: center;
   gap: 50px;
   margin-bottom: 60px;
+  width: 100%;
 }
 
 .team-line {
@@ -25,12 +34,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .team-header-text > h1 {
   font-size: 3rem;
   color: var(--secondary-color-2);
   text-align: center;
+  margin: 0;
 }
 
 .team-header-text > h2 {
@@ -40,19 +51,26 @@
   text-align: center;
 }
 
+/* EXECUTIVE GRID */
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 290px));
-  gap: 3rem 2rem;
   justify-content: center;
   justify-items: center;
+  gap: 3rem 2rem;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
 
+/* CENTER LAST EXECUTIVE IF ALONE */
+
 .team-grid > *:last-child:nth-child(3n + 1) {
   grid-column: 2;
 }
+
+/* EXECUTIVE CARDS */
 
 .member-box {
   width: 100%;
@@ -71,6 +89,8 @@
   transform: scale(1.04);
 }
 
+/* EXECUTIVE PHOTOS */
+
 .member-box > img {
   display: block;
   width: 100%;
@@ -80,10 +100,13 @@
   border-radius: 9px 9px 0 0;
 }
 
-/* Show more of Joe's face */
+/* JOE'S PHOTO */
+
 .member-box:first-child > img {
   object-position: center top;
 }
+
+/* EXECUTIVE NAMES AND ROLES */
 
 .member-box > div {
   display: flex;
@@ -101,6 +124,8 @@
   overflow-wrap: anywhere;
 }
 
+/* TABLET LAYOUT */
+
 @media (max-width: 1000px) {
   .team-grid {
     grid-template-columns: repeat(2, minmax(0, 290px));
@@ -110,6 +135,8 @@
     grid-column: auto;
   }
 }
+
+/* MOBILE LAYOUT */
 
 @media (max-width: 600px) {
   #team {
@@ -144,6 +171,8 @@
     width: 100%;
   }
 }
+
+/* SMALL MOBILE SCREENS */
 
 @media (max-width: 376px) {
   .team-header-text > h1 {
