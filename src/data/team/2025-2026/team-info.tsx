@@ -6,12 +6,12 @@
  * - To delete: remove the whole block.
  */
 
-import Dian from "../../../assets/img/team/2026-27/DianRruki_-_Dian_Rruki.jpg";
-import Shimaz from "../../../assets/img/team/2026-27/IMG_1383_-_Shimaz_Ahmed.jpg";
-import Joe from "../../../assets/img/team/2026-27/4FEBA916-5F51-4691-97A7-22ED176B6F6E - Joe Hoogland.jpeg";
-import Marshali from "../../../assets/img/team/2026-27/IMG_5467 - Marshali Edirisinghe.jpeg";
-import Shwetha from "../../../assets/img/team/2026-27/20250901_114016(1) - Shwetha Gopinath.jpg";
-import Nabeeha from "../../../assets/img/team/2026-27/photo - Nabeeha Irfan.jpeg";
+import Dian from "../../../assets/img/team/2026-27/DianRruki.jpg.png";
+import Shimaz from "../../../assets/img/team/2026-27/ShimazAhmed.jpg.png";
+import Joe from "../../../assets/img/team/2026-27/JoeHoogland.jpg.png";
+import Marshali from "../../../assets/img/team/2026-27/Marshali.jpg.png";
+import Shwetha from "../../../assets/img/team/2026-27/ShwethaGopintha.jpg.jpg";
+import Nabeeha from "../../../assets/img/team/2026-27/NabeehaIrfan.jpg.png";
 import Dana from "../../../assets/img/team/2025-2026/dana.png";
 
 export interface TeamMember {
