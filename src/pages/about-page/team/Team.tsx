@@ -8,8 +8,8 @@ export function Team() {
         <div className="team-header">
           <div className="team-line"></div>
           <div className="team-header-text">
-            <h1>Meet the Team</h1>
-            <h2>2025-2026</h2>
+            <h1>Meet the Executive Team</h1>
+            <h2>2026-2027</h2>
           </div>
           <div className="team-line"></div>
         </div>
