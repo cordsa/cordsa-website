@@ -19,14 +19,20 @@ export interface Event {
 
 export const upcomingEvents: Event[] = [
   {
-    name: "Movie Night",
+    name: "Binge & Eat: Medical Drama Marathon",
     info: (
       <>
-        Join us for <b>Movie Night</b> on <b>Thursday, Jan. 15</b>,
-        from <b>5:00–7:00 PM</b> in <b>ECHA 2-420</b>.
-        We will be screening <b>”The Theory of Everything”</b>,
-        a powerful film that highlights the realities of living
-        with ALS disease.
+        Join us for <b>Binge & Eat: Medical Drama Marathon</b> on{" "}
+        <b>Thursday, November 19, 2026</b>, from{" "}
+        <b>5:30–7:30 PM</b> in <b>KHRA 2-490</b>!
+
+        {" "}We'll be watching episodes of popular medical
+        dramas like <b>House MD</b> and <b>Grey's Anatomy</b>.
+
+        {" "}Enjoy <b>free popcorn and drinks</b>,
+        with additional food available for purchase.
+
+        {" "}<b>Drop-ins are welcome!</b>
       </>
     ),
     image: movieNight,
@@ -38,12 +44,17 @@ export const upcomingEvents: Event[] = [
       <>
         Join us for our <b>End-of-Semester Fundraising Sale</b> on{" "}
         <b>November 25 and 27</b> from <b>8:00 AM–6:00 PM</b> in{" "}
-        <b>KHRA</b>! Stop by to enjoy delicious baked goods,
+        <b>KHRA</b>!
+
+        {" "}Stop by to enjoy delicious baked goods,
         warm drinks, blind books, and merch while supporting
-        a great cause. All proceeds will go towards our{" "}
+        a great cause.
+
+        {" "}All proceeds will go towards our{" "}
         <b>Rare Disease Day Gala</b> in February, supporting{" "}
-        <b>Aubrey’s Hope for a Cure</b>. Come treat yourself
-        and help us make a difference!
+        <b>Aubrey’s Hope for a Cure</b>.
+
+        {" "}Come treat yourself and help us make a difference!
       </>
     ),
     image: valentinesDay,
@@ -57,8 +68,9 @@ export const upcomingEvents: Event[] = [
         biggest event of the year—taking place{" "}
         <b>near the end of February</b>, with the{" "}
         <b>exact date and location to be announced</b>!
-        This year, all proceeds and donations will go towards
-        supporting <b>Aubrey’s Hope for a Cure</b>.
+
+        {" "}This year, all proceeds and donations will go
+        towards supporting <b>Aubrey’s Hope for a Cure</b>.
       </>
     ),
     image: rddGala,
