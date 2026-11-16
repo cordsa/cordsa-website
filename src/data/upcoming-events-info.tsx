@@ -7,7 +7,6 @@
  */
 
 import movieNight from "../assets/img/photos/events/movie-night.png";
-import bottleDrive from "../assets/img/photos/events/bottle-drive.png";
 import valentinesDay from "../assets/img/photos/events/valentines-day.png";
 import rddGala from "../assets/img/photos/events/rdd-gala.png";
 
@@ -29,32 +28,20 @@ export const upcomingEvents: Event[] = [
     image: movieNight,
   },
   
-  {
-    name: "Bottle Drive",
-    info: (
-      <>
-        We’re hosting a <b>Bottle Drive</b> on <b>Friday, Jan. 30</b> from <b>12:00–5:00 PM</b> on <b>Whyte Avenue</b>. Come out and help us collect bottles and cans to support our cause—every bottle counts!
-      </>
-    ),
-    image: bottleDrive,
-  },
+
   
   {
-    name: "Valentine’s Day Bake Sale",
+    name: "Hot Coco + Bake Sale ",
     info: (
       <>
-        Celebrate Valentine’s Day with our <b>Bake Sale</b> on <b>February 12 and 13</b> from <b>9:00 AM–5:00 PM</b> in <b>ECHA</b>! Stop by to treat yourself (or someone special) to a variety of delicious homemade goodies, support our cause, and help us spread a little extra love on campus.
-      </>
-    ),
-    image: valentinesDay,
-  },
-
+        Join us for our <b>End-of-Semester Fundraising Sale</b> on <b>November 25 and 27</b> from <b>8:00 AM–6:00 PM</b> in <b>KHRA</b>! Stop by to enjoy delicious baked goods, warm drinks, blind books, and merch while supporting a great cause. All proceeds will go towards our <b>Rare Disease Day Gala</b> in February, supporting <b>Aubrey’s Hope for a Cure</b>. Come treat yourself and help us make a difference!
    {
-    name: "Rare Disease Day Gala",
+  
+     name: "Rare Disease Day Gala",
     info: (
       <>
-        Join us for our annual <b>Rare Disease Day Gala</b>—our biggest event of the year—on <b>Friday, Feb. 27</b>, from <b>5:30–8:30 PM</b> in the <b>Maple Leaf Room at the Lister Conference Centre</b>, University of Alberta. 
-        This year’s theme focuses on <b>rare neurodegenerative disorders</b>, with proceeds supporting the <b>ALS Society of Alberta</b>. Enjoy an evening of inspiring speeches, dinner, and a silent auction in support of an important cause.
+        Join us for our annual <b>Rare Disease Day Gala</b>—our biggest event of the year—taking place <b>near the end of February</b>, with the <b>exact date and location to be announced</b>!
+This year, all proceeds and donations will go towards supporting <b>Aubrey’s Hope for a Cure</b>.
       </>  
     ),
     image: rddGala,
