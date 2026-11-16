@@ -8,7 +8,7 @@
  */
 
 import movieNight from "../assets/img/photos/events/movie-night.png";
-import valentinesDay from "../assets/img/photos/events/valentines-day.png";
+import valentinesDay from "../assets/img/photos/events/valentines-day1.png";
 import rddGala from "../assets/img/photos/events/rdd-gala.png";
 
 export interface Event {
